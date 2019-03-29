@@ -432,17 +432,20 @@ begin
 		end
 end;
 	
-insert into Nguoi values ('TS2012000001','385125478',N'Lê Minh Hiếu',0,'8/1/1999',N'Long An')
+insert into Nguoi values ('TS2012000001','385125478',N'Lê Minh Chó',0,'8/1/1999',N'Long An')
 insert into Nguoi values ('TS2013000010','313122299',N'Đoàn Thị Đoan Trang',1,'10/10/1999',N'Tiền Giang')
 insert into Nguoi values ('TS2014000201','234547587',N'Huỳnh Thị Lâm',1,'1/1/1999',N'Đà Lạt')
 insert into Nguoi values ('TS2014000504','671776435',N'Nguyễn Văn Xệ',0,'3/12/1999',N'Hà Nội')
-insert into Nguoi values ('NS000001','536994281',N'Trần Việt Linh',0,'7/11/1999',N'TPHCM')
-insert into Nguoi values ('NS000001','536994281',N'Trần Việt Linh',0,'7/11/1999',N'TPHCM')
-insert into Nguoi values ('NS000001','536994281',N'Trần Việt Linh',0,'7/11/1999',N'TPHCM')
+insert into Nguoi values ('NS000001','536994281',N'Trần Việt Linh',1,'7/11/1999',N'TPHCM')
+insert into Nguoi values ('NS000103','536994281',N'Lê Anh Tôi',0,'3/6/1999',N'Ukraine')
+insert into Nguoi values ('NS000504','458725812',N'Lê Thị Bích',1,'9/9/1999',N'Cà Mau')
+insert into Nguoi values ('NS001056','654564564',N'Cẩm Lan Sục',1,'5/6/1969',N'Bến Tre')
 
 insert into ThiSinh values ('TS2012000001',N'Long An','0123456789',N'Tôi tên Hiếu')
 insert into ThiSinh values ('TS2013000010',N'Tiền Giang','0123456789',N'Tớ là Trang')
 insert into ThiSinh values ('TS2014000201',N'Đà Lạt','0123456789',N'Mình tên là Lâm')
 insert into ThiSinh values ('TS2014000504',N'Hà Nội','0123456789',N'Tôi tên Xệ')
 
-insert into NgheSy values ('NS000001',N'Xám',N'Quán quân The Voice VN 2010',
+insert into NgheSy values ('NS000001',N'Xám',N'Quán quân The Voice VN 2010',0,0,1)
+insert into NgheSy values ('NS000103',N'DenDi',N'Quán quân The International',1,0,0)
+insert into NgheSy values ('NS000504',N'
